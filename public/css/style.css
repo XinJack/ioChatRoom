@@ -1,0 +1,39 @@
+body{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 50px;
+	bottom: 50px;
+}
+.container{
+	height: 100%;
+}
+#loginWarning{
+	display: none;
+}
+#content{
+	display:none;
+	height: 100%;
+}
+#users{
+	height: 100%;
+}
+#users .well{
+	height: 100%;
+}
+#chatbox{
+	height: 100%;
+}
+#messagePanel{
+	height: 80%;
+}
+#messagePanel div.panel{
+	overflow-y:scroll;
+	height:100%;
+}
+#messageForm{
+	height: 20%;
+}
+#messageForm form{
+	margin-top: 50px;
+}
